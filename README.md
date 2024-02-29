@@ -2,6 +2,8 @@
 A simulation of an LRU cache hosted on a server, called using gRPC.
 Created as a project for CS 544 - Distributed Systems (GitHub: https://github.com/cs544-wisc/s24/tree/main). 
 
+Before running, make sure you have Docker downloaded. This program runs off of Ubuntu's 22.04 LTS Docker Image.
+
 1. Build your .proto file:
 python3 -m grpc_tools.protoc -I=. --python_out=. --grpc_python_out=. mathdb.proto
 
